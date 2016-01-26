@@ -199,7 +199,7 @@ void play_against_ai(){
         }
         //ai's turn
         else{
-            cout << "AI's turn" << endl;
+            cout << "AI's turn: AI's computing a move." << endl;
             min_max(gameboard, 0);
             vector<int> ai_move = gameboard.nextAiMove;
             gameboard.makeMove(ai_move[0], ai_move[1]);
