@@ -112,7 +112,6 @@ int min_max(GameBoard& board, int depth){
     depth = depth+1;
     int current_player;
     //check whether the previous move was odd or even and determine whose turn is it right now based on that
-    //AI is always player 2, maximize if ai wins and minimize if player wins
     if(board.movesSoFar%2 == 0){
         current_player = 1;
     }
