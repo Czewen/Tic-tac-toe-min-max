@@ -8,3 +8,5 @@ Coordinates for x and y are in the range of [0..2]:
   1  _|_|_
   2   | |
      0 1 2
+     
+.
