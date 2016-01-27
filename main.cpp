@@ -261,5 +261,7 @@ int main()
     else if(choice == 3){
         test();
     }
+    cout << "Enter any key to quit" << endl;
+    cin >> choice;
     return 0;
 }
